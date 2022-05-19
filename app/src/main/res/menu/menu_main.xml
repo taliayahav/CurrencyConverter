@@ -1,0 +1,16 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.currency_converter.activities.MainActivity">
+
+    <item
+        android:id="@+id/action_clear_text"
+        android:checkable="true"
+        android:title="@string/use_clear_text_button"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_about"
+        android:icon="@android:drawable/ic_dialog_info"
+        android:title="@string/about"
+        app:showAsAction="never" />
+</menu>
